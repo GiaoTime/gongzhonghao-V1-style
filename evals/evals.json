@@ -1,0 +1,29 @@
+{
+  "skill_name": "gongzhonghao-V1-style",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "把下面这段文字按公众号排版规则处理，输出可复制到公众号后台的版本：\\n\\n很多企业做内容时，总想一次讲完所有信息。结果文章越来越长，重点越来越散。真正有效的公众号文章，不是堆满观点，而是让读者在每一屏都知道自己正在读什么、为什么要继续读。",
+      "expected_output": "A compact WeChat-ready draft that preserves the original meaning, splits paragraphs, avoids unsupported expansion, and includes a V1 layout checklist.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "审校这篇公众号草稿的排版问题，只指出违反规则的地方和修改建议：正文用了宋体，字号有 13px、15px、17px、22px，正文纯黑，行距 1.2，段落平均 8 行，高亮用了红黄蓝橙绿五种颜色。",
+      "expected_output": "An audit grouped by typography, spacing, paragraphs, colors, and concrete fixes aligned to V1 constraints.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "给我一段公众号 HTML 样式模板，要求符合 V1 排版规则，用于正文、标题、小标题和备注。",
+      "expected_output": "A simple HTML/CSS template using one sans-serif font, title 20px, section title 18px, body 14-16px, note 10px, justified body text, 1.5px letter spacing, 1.75 line height, 10-14px horizontal padding, and gray body text.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "使用V1，把这篇写好的文章上传到公众号：\\n\\n内容创业不是每天多发几篇，而是建立一套稳定的选题、写作和复盘机制。只有机制稳定，内容才有复利。",
+      "expected_output": "A WorkBuddy-ready upload plan that applies V1 layout rules, explicitly creates a new WeChat Official Account article, saves it as a draft only, and does not modify or overwrite existing drafts.",
+      "files": []
+    }
+  ]
+}

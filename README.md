@@ -2,6 +2,10 @@
 
 微信公众号排版规则 V1 技能。
 
+## 风格展示
+
+![微信公众号 V1 风格展示](assets/wechat_mobile_style_demo.png)
+
 这个技能用于把文章、Markdown 草稿、公众号初稿或排版审校请求，处理成符合固定公众号排版参数的可发布版本。它重点约束字体、字号、对齐、字间距、行距、页边距、段落、颜色、高亮和图片规格。
 
 ## 适用场景
@@ -113,6 +117,8 @@
 
 ```text
 gongzhonghao-V1-style/
+├── assets/
+│   └── wechat_mobile_style_demo.png
 ├── README.md
 ├── SKILL.md
 └── evals/
